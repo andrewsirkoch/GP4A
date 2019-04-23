@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Projectile
+  - Ground
+  - Trigger
+  - Enemy
+  - Coin
+  - audio_SFX
+  - audio_music
+  - audio_ambient
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Enemy
+  - Player
+  - Coin
+  - Ground
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Sky
+    uniqueID: 461440391
+    locked: 0
+  - name: Background
+    uniqueID: 480638219
+    locked: 0
+  - name: Player
+    uniqueID: 3817263927
+    locked: 0
+  - name: Ground
+    uniqueID: 3015974111
+    locked: 0
+  - name: Foreground
+    uniqueID: 2575446833
+    locked: 0
