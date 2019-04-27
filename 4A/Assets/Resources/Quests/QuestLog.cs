@@ -50,16 +50,4 @@ public class QuestLog : MonoBehaviour
         PlayerPrefs.SetInt("quest_3_step_1_completed", 0);
         PlayerPrefs.SetInt("quest_3_step_2_completed", 0);
     }
-
-    void thirdQuest()
-    {
-        PlayerPrefs.SetInt("quest_1_completed", 1);
-        PlayerPrefs.SetInt("quest_1_step_1_completed", 1);
-        PlayerPrefs.SetInt("quest_1_step_2_completed", 1);
-
-        // Quest Two
-        PlayerPrefs.SetInt("quest_2_completed", 1);
-        PlayerPrefs.SetInt("quest_2_step_1_completed", 1);
-        PlayerPrefs.SetInt("quest_2_step_2_completed", 1);
-    }
 }

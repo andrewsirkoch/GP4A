@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class HUD_Update : MonoBehaviour
 {
+    public GameObject PauseMenu;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,6 +17,15 @@ public class HUD_Update : MonoBehaviour
     {
         UpdateHealth();
         UpdateCoins();
+
+        if (Input.GetKeyDown(KeyCode.Escape) && !PauseMenu.activeInHierarchy)
+        {
+            PauseMenu.SetActive(true);
+        }
+        else if (Input.GetKeyDown(KeyCode.Escape) && PauseMenu.activeInHierarchy)
+        {
+            PauseMenu.SetActive(false);
+        }
     }
 
     void UpdateHealth()
@@ -29,5 +39,10 @@ public class HUD_Update : MonoBehaviour
     {
         GameObject Coins = GameObject.Find("CoinDisplay");
         Coins.GetComponent<Text>().text = playerStats.coins.ToString();
+    }
+
+    public void UsePotion()
+    {
+        playerStats.UsePotion();
     }
 }

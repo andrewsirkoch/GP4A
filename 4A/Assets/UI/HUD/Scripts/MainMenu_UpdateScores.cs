@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class playerQuests : MonoBehaviour
+public class MainMenu_UpdateScores : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()

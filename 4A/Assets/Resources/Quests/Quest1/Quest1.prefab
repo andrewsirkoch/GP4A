@@ -94,6 +94,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2331887244302742254}
   - component: {fileID: 2331887244302742241}
+  - component: {fileID: 8568313822770906528}
   m_Layer: 0
   m_Name: Quest1_Step1
   m_TagString: Untagged
@@ -133,6 +134,19 @@ MonoBehaviour:
   numberOfBoars: 0
   Completed: 0
   nextStep: {fileID: 2331887245627190345}
+--- !u!114 &8568313822770906528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2331887244302742255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6eb8f7b637c58a4eaf321fe805f878a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: Clear the boar infestation
 --- !u!1 &2331887244333217703
 GameObject:
   m_ObjectHideFlags: 0
@@ -772,6 +786,7 @@ GameObject:
   - component: {fileID: 2331887245627190346}
   - component: {fileID: 2331887245627190347}
   - component: {fileID: 8952958888215994443}
+  - component: {fileID: 8318036698976089538}
   m_Layer: 0
   m_Name: Quest1_Step2
   m_TagString: Trigger
@@ -853,6 +868,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Completed: 0
+--- !u!114 &8318036698976089538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2331887245627190345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6eb8f7b637c58a4eaf321fe805f878a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: Inquire at the house
 --- !u!1 &2331887246096990471
 GameObject:
   m_ObjectHideFlags: 0

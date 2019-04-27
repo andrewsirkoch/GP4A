@@ -49,6 +49,8 @@ public class enemyStats : MonoBehaviour
         enemyMovement.grounded = true;
         enemyMovement.enabled = false;
 
+        PlayerPrefs.SetInt("enemiesKilled", PlayerPrefs.GetInt("enemiesKilled") + 1);
+
         Animator animator = gameObject.GetComponentInChildren<Animator>();
         animator.SetTrigger("returnToIdle");
         animator.SetTrigger("Die");

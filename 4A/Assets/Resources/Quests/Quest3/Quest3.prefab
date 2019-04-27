@@ -3217,6 +3217,7 @@ GameObject:
   m_Component:
   - component: {fileID: 398275319093018143}
   - component: {fileID: 398275319093018142}
+  - component: {fileID: 7152794856497230612}
   m_Layer: 0
   m_Name: Quest3_Step1
   m_TagString: Untagged
@@ -3254,6 +3255,19 @@ MonoBehaviour:
   numberOfGoblinBoss: 0
   Completed: 0
   nextStep: {fileID: 7774281701991281883}
+--- !u!114 &7152794856497230612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 398275319093018140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6eb8f7b637c58a4eaf321fe805f878a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: Defeat the goblin chief
 --- !u!1 &398275319149021758
 GameObject:
   m_ObjectHideFlags: 0
@@ -4984,6 +4998,7 @@ GameObject:
   - component: {fileID: 7658203094874252897}
   - component: {fileID: 816339859725744789}
   - component: {fileID: 1312321163867898001}
+  - component: {fileID: 952821850231783363}
   m_Layer: 2
   m_Name: Quest3_Step2
   m_TagString: Trigger
@@ -5065,6 +5080,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Completed: 0
+--- !u!114 &952821850231783363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7774281701991281883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6eb8f7b637c58a4eaf321fe805f878a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: Return to the man at the house
 --- !u!1 &7806111699306590071
 GameObject:
   m_ObjectHideFlags: 0

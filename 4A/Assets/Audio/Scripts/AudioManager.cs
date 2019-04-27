@@ -19,6 +19,7 @@ public class AudioManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        UpdateAudio();
         if (gameObject.GetComponent<AudioSource>().isPlaying == false)
         {
             if (songNumber == totalSongs)

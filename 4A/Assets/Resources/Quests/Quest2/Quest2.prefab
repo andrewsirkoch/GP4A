@@ -88,6 +88,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1142001131588730794}
   - component: {fileID: 1142001131588730797}
+  - component: {fileID: 8543157341508158494}
   m_Layer: 0
   m_Name: Quest2_Step1
   m_TagString: Untagged
@@ -128,6 +129,19 @@ MonoBehaviour:
   numberOfGoblins: 0
   Completed: 0
   nextStep: {fileID: 2641448443128492442}
+--- !u!114 &8543157341508158494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1142001131588730795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6eb8f7b637c58a4eaf321fe805f878a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: Kill the goblins at the mushroom grove
 --- !u!1 &1142001133468949891
 GameObject:
   m_ObjectHideFlags: 0
@@ -984,11 +998,11 @@ MonoBehaviour:
   walk: 0
   walking: 0
   flipX: 0
-  rayCastOffset: 0.8
+  rayCastOffset: 0.7
   rayCastOffsetVertical: 1.5
-  rayCastOffsetHorizontal: 0
-  eyeLevel: 0
-  jumpPower: 0
+  rayCastOffsetHorizontal: -0.5
+  eyeLevel: 0.5
+  jumpPower: 5
   listen: 1
 --- !u!114 &1985828991144125934
 MonoBehaviour:
@@ -1328,11 +1342,11 @@ MonoBehaviour:
   walk: 0
   walking: 0
   flipX: 0
-  rayCastOffset: 0.8
+  rayCastOffset: 0.7
   rayCastOffsetVertical: 1.5
-  rayCastOffsetHorizontal: 0
-  eyeLevel: 0
-  jumpPower: 0
+  rayCastOffsetHorizontal: -0.5
+  eyeLevel: 0.5
+  jumpPower: 5
   listen: 1
 --- !u!114 &1985828991893349174
 MonoBehaviour:
@@ -1474,11 +1488,11 @@ MonoBehaviour:
   walk: 0
   walking: 0
   flipX: 0
-  rayCastOffset: 0.8
+  rayCastOffset: 0.7
   rayCastOffsetVertical: 1.5
-  rayCastOffsetHorizontal: 0
-  eyeLevel: 0
-  jumpPower: 0
+  rayCastOffsetHorizontal: -0.5
+  eyeLevel: 0.5
+  jumpPower: 5
   listen: 1
 --- !u!114 &1985828992104682396
 MonoBehaviour:
@@ -1600,6 +1614,7 @@ GameObject:
   - component: {fileID: 2669759893403738912}
   - component: {fileID: 1792594394240566992}
   - component: {fileID: 6736767653576050128}
+  - component: {fileID: 5383839261756141385}
   m_Layer: 2
   m_Name: Quest2_Step2
   m_TagString: Trigger
@@ -1681,6 +1696,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Completed: 0
+--- !u!114 &5383839261756141385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2641448443128492442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6eb8f7b637c58a4eaf321fe805f878a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: Return to the man at the house
 --- !u!1 &3226297674393624030
 GameObject:
   m_ObjectHideFlags: 0

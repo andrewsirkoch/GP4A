@@ -13,6 +13,7 @@ public class Coin : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             playerStats.increaseCoins(1);
+            PlayerPrefs.SetInt("coinsObtained", PlayerPrefs.GetInt("coinsObtained") + 1);
             AudioManager.accessAudioSource("CoinPickup").play();
             Destroy(this.gameObject);
         }
